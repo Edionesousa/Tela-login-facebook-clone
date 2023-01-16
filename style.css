@@ -34,7 +34,9 @@ section{
 }
 img{
     margin: -44px 0px 20px;
-    width: 240px;
+    text-align: center;
+    max-width: 240px;
+    min-width: 100px;
     right: 84.48px;
 }
 #principal{
