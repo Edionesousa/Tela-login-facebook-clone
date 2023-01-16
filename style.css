@@ -8,6 +8,7 @@
 
 html{
     background-color: rgb(253, 253, 253);
+    margin: auto;
     text-align: center;
     padding: 80px;
 
@@ -16,7 +17,7 @@ div.login> input{
     border-color:#f8f4f4ea;
     padding: 14px;
     margin: 16px;
-    width: 366px;
+    min-width: 330px;
     right: 52px;
 }
 .titulo{
@@ -41,7 +42,8 @@ img{
     margin: auto;
     text-align: center;
     color: rgba(128, 128, 128, 0.61);
-    width: 450px;
+    min-width: 250px;
+    max-width: 1000px;
     display: -ms-inline-grid;
     border-radius:15px;
     height: 500px;
