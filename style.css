@@ -28,6 +28,7 @@ div.login> input{
     font:var(--font-family)
 }
 section{
+    flex-wrap:wrap ;
     width: 396px;
     right: 314px;
     font-size: 25px;
