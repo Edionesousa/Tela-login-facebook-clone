@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    --cor1:#ffffff;
+    --cor2:#0000ff;
+    --cor3:#1c1e21;
+}
+
+html{
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 80px;
+
+}
+div.login> input{
+    border-color:#f8f4f4ea;
+    padding: 14px;
+    margin: 16px;
+    width: 366px;
+    right: 52px;
+}
+.titulo{
+    width: 366px;
+    right: 22px;
+    padding: 24px 0px 16px;
+    color: #1c1e21;
+    font:var(--font-family)
+}
+section{
+    width: 396px;
+    right: 314px;
+    font-size: 25px;
+}
+img{
+    margin: -44px 0px 20px;
+    width: 240px;
+    right: 84.48px;
+}
+#principal{
+    background-color: rgb(253, 253, 253);
+    margin: auto;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.61);
+    width: 450px;
+    display: -ms-inline-grid;
+    border-radius:15px;
+    height: 500px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.247);
+}
+div#login{
+    background-color: rgb(253, 253, 253);
+    width: 364px;
+    right: 64px;
+    text-align:center;
+}
+#nova_conta{
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+div.nova_conta input{
+    background-color:#42b72a;
+    border-color: #f8f4f4ea;
+    font-size: 20px;
+    padding: 18px;
+    margin: auto;
+    display: block;
+    width: 166.16px;
+    height: 48px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font: bold;
+}
+span hr{
+    margin: 10px;
+}
+.botao_entrar a> input{
+    background-color:#1877f2;
+    font-size: 20px;
+    font: bold;
+    border-radius: 5px;
+    width: 364px;
+    height: 48px;   
+    margin: 10px;
+    color: #ffffff;
+    border: none;
+}
+a{
+   padding: 10px;
+   text-decoration: none;
+   color: #1877f2;
+   font: var(--font-family);
+}
