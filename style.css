@@ -18,7 +18,7 @@ div.login> input{
     border-color:#f8f4f4ea;
     padding: 14px;
     margin: 16px;
-    min-width: 330px;
+    width: 85%;
     right: 52px;
     outline: none;
 }
