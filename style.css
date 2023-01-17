@@ -20,6 +20,7 @@ div.login> input{
     margin: 16px;
     min-width: 330px;
     right: 52px;
+    outline: none;
 }
 .titulo{
     width: 366px;
