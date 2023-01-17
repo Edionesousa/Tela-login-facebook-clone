@@ -66,7 +66,7 @@ div#login{
     margin: auto;
     text-align: center;
 }
-div.nova_conta input{
+div.nova_conta a> button{
     background-color:#42b72a;
     border-color: #f8f4f4ea;
     font-size: 20px;
@@ -84,7 +84,7 @@ div.nova_conta input{
 span hr{
     margin: 10px;
 }
-.botao_entrar a> input{
+.botao_entrar a> button{
     background-color:#1877f2;
     font-size: 20px;
     font: bold;
@@ -94,6 +94,15 @@ span hr{
     margin: 10px;
     color: #ffffff;
     border: none;
+}
+div#rec_conta> a:hover{
+    text-decoration:underline;
+}
+div a button:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.158);
+}
+div.login input:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.048);
 }
 a{
    padding: 10px;
