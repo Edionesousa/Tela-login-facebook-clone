@@ -1,5 +1,5 @@
-*{
-    padding: 0;
+:root{
+     padding: 0;
     margin: 0;
     --cor1:#ffffff;
     --cor2:#0000ff;
@@ -10,6 +10,7 @@ html{
     background-color: rgb(253, 253, 253);
     margin: auto;
     text-align: center;
+    align-items: center;
     padding: 80px;
 
 }
@@ -34,7 +35,9 @@ section{
     font-size: 25px;
 }
 img{
-    margin: -44px 0px 20px;
+    margin: 44px 0px 44px;
+    align-items: center;
+    gap: 14px;
     align-items: center;
     max-width: 240px;
     min-width: 100px;
